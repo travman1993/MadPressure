@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MadPressure - Professional Pressure Washing Services</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Mad<span>Pressure</span></a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#quote" class="nav-link">Get Quote</a></li>
+                    <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Professional Pressure Washing Services</h1>
+                <p class="hero-subtitle">Transform your property with our top-rated pressure washing solutions in Waluska, GA and surrounding areas.</p>
+                <div class="hero-btns">
+                    <a href="#quote" class="btn">Request a Quote</a>
+                    <a href="#services" class="btn btn-secondary">Our Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">We offer a wide range of pressure washing services to keep your property looking its best.</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 class="service-title">Residential Pressure Washing</h3>
+                    <p class="service-description">Complete house washing solutions including siding, gutters, driveways, and walkways.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 class="service-title">Commercial Pressure Washing</h3>
+                    <p class="service-description">Keep your business looking professional with our commercial cleaning services.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-road"></i>
+                    </div>
+                    <h3 class="service-title">Driveway & Sidewalk Cleaning</h3>
+                    <p class="service-description">Remove tough stains, mold, and mildew from concrete surfaces.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-umbrella-beach"></i>
+                    </div>
+                    <h3 class="service-title">Deck & Patio Restoration</h3>
+                    <p class="service-description">Revitalize your outdoor living spaces and prepare for staining or sealing.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3 class="service-title">Storefront & Awning Cleaning</h3>
+                    <p class="service-description">Make a great first impression with clean storefronts and awnings.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3 class="service-title">Roof Cleaning</h3>
+                    <p class="service-description">Safely remove black streaks, moss, and algae from your roof.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Form Section -->
+    <section class="section quote" id="quote">
+        <div class="container">
+            <h2 class="section-title">Get A Free Quote</h2>
+            <p class="section-subtitle">Fill out the form below and we'll get back to you with a free, no-obligation quote.</p>
+            
+            <div class="quote-container">
+                <div class="quote-img">
+                    <h3>Why Choose Us?</h3>
+                    <p>Licensed & Insured, Eco-Friendly Solutions, Satisfaction Guaranteed, 5-Star Rated Service, Free Quotes, and Flexible Scheduling</p>
+                </div>
+                
+                <div class="quote-form">
+                    <h3>Request a Quote</h3>
+                    <form id="quoteForm">
+                        <div class="form-group">
+                            <label for="firstName">First Name*</label>
+                            <input type="text" id="firstName" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="lastName">Last Name*</label>
+                            <input type="text" id="lastName" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address*</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number*</label>
+                            <input type="tel" id="phone" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="address">Property Address*</label>
+                            <input type="text" id="address" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Needed*</label>
+                            <select id="service" class="form-control" required>
+                                <option value="">Select a Service</option>
+                                <option value="Residential">Residential Pressure Washing</option>
+                                <option value="Commercial">Commercial Pressure Washing</option>
+                                <option value="Driveway">Driveway & Sidewalk Cleaning</option>
+                                <option value="Deck">Deck & Patio Restoration</option>
+                                <option value="Storefront">Storefront & Awning Cleaning</option>
+                                <option value="Roof">Roof Cleaning</option>
+                                <option value="Other">Other (Please specify)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">Estimated Budget</label>
+                            <select id="budget" class="form-control">
+                                <option value="">Select Budget Range</option>
+                                <option value="Under $200">Under $200</option>
+                                <option value="$200-$500">$200-$500</option>
+                                <option value="$500-$1000">$500-$1000</option>
+                                <option value="$1000+">$1000+</option>
+                                <option value="Not Sure">Not Sure</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Additional Details</label>
+                            <textarea id="message" class="form-control" placeholder="Please describe the area to be cleaned, specific concerns, or any questions you may have."></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Upload Photos (Optional)</label>
+                            <div class="upload-btn-wrapper">
+                                <button type="button" class="upload-btn">
+                                    <i class="fas fa-cloud-upload-alt"></i>
+                                    Drag & drop files here or click to browse
+                                </button>
+                                <input type="file" name="photos" multiple accept="image/*">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Preferred Contact Method</label>
+                            <div style="display: flex; gap: 15px;">
+                                <label style="display: flex; align-items: center; cursor: pointer;">
+                                    <input type="radio" name="contactMethod" value="email" checked style="margin-right: 5px;"> 
+                                    Email
+                                </label>
+                                <label style="display: flex; align-items: center; cursor: pointer;">
+                                    <input type="radio" name="contactMethod" value="phone" style="margin-right: 5px;"> 
+                                    Phone
+                                </label>
+                                <label style="display: flex; align-items: center; cursor: pointer;">
+                                    <input type="radio" name="contactMethod" value="text" style="margin-right: 5px;"> 
+                                    Text Message
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <button type="submit" class="btn">Submit Quote Request</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Before & After Gallery</h2>
+            <p class="section-subtitle">See the dramatic difference our pressure washing services can make.</p>
+            
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="concrete">Concrete</button>
+                <button class="filter-btn" data-filter="deck">Deck & Patio</button>
+            </div>
+            
+            <div class="gallery-grid">
+                <!-- Before/After Item 1 -->
+                <div class="gallery-item" data-category="residential">
+                    <img src="assets/img/gallery/before-after-1.jpg" alt="House Washing Before & After" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>House Siding</h4>
+                        <p>Complete transformation with our soft washing technique</p>
+                    </div>
+                </div>
+                
+                <!-- Before/After Item 2 -->
+                <div class="gallery-item" data-category="concrete">
+                    <img src="assets/img/gallery/before-after-2.jpg" alt="Driveway Cleaning Before & After" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Driveway Cleaning</h4>
+                        <p>Removed years of built-up grime and stains</p>
+                    </div>
+                </div>
+                
+                <!-- Before/After Item 3 -->
+                <div class="gallery-item" data-category="deck">
+                    <img src="assets/img/gallery/before-after-3.jpg" alt="Deck Restoration Before & After" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Deck Restoration</h4>
+                        <p>Revitalized this weathered deck to like-new condition</p>
+                    </div>
+                </div>
+                
+                <!-- Before/After Item 4 -->
+                <div class="gallery-item" data-category="commercial">
+                    <img src="assets/img/gallery/before-after-4.jpg" alt="Commercial Storefront Before & After" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Commercial Storefront</h4>
+                        <p>Improved curb appeal for this local business</p>
+                    </div>
+                </div>
+                
+                <!-- Before/After Item 5 -->
+                <div class="gallery-item" data-category="residential">
+                    <img src="assets/img/gallery/before-after-5.jpg" alt="Roof Cleaning Before & After" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Roof Cleaning</h4>
+                        <p>Safely removed black streaks and algae</p>
+                    </div>
+                </div>
+                
+                <!-- Before/After Item 6 -->
+                <div class="gallery-item" data-category="concrete">
+                    <img src="assets/img/gallery/before-after-6.jpg" alt="Sidewalk Cleaning Before & After" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Sidewalk Cleaning</h4>
+                        <p>Restored this walkway to its original condition</p>
+                    </div>
+                </div>
+                
+                <!-- Before/After Item 7 -->
+                <div class="gallery-item" data-category="deck">
+                    <img src="assets/img/gallery/before-after-7.jpg" alt="Patio Cleaning Before & After" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Patio Transformation</h4>
+                        <p>Enhanced outdoor living space with deep cleaning</p>
+                    </div>
+                </div>
+                
+                <!-- Before/After Item 8 -->
+                <div class="gallery-item" data-category="commercial">
+                    <img src="assets/img/gallery/before-after-8.jpg" alt="Commercial Building Before & After" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <h4>Commercial Building</h4>
+                        <p>Complete exterior cleaning for this office complex</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-container">
+                <div class="about-content">
+                    <h3>About MadPressure</h3>
+                    <p>Founded in Waluska, Georgia, MadPressure has been providing top-quality pressure washing services to homeowners and businesses throughout the region for over 5 years. Our mission is simple: to deliver exceptional results that exceed our customers' expectations.</p>
+                    <p>We use state-of-the-art equipment and eco-friendly cleaning solutions that effectively remove dirt, grime, mold, mildew, and other contaminants without harming your property or the environment. Our team of trained professionals takes pride in their attention to detail and commitment to customer satisfaction.</p>
+                    <p>Whether you need residential or commercial pressure washing services, MadPressure is the name you can trust. We're fully licensed and insured, and we stand behind our work with a 100% satisfaction guarantee.</p>
+                </div>
+                
+                <div class="about-img">
+                    <img src="assets/img/about-team.jpg" alt="MadPressure Team">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <p class="section-subtitle">Don't just take our word for it. Here's what our satisfied customers have to say about our services.</p>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        I couldn't believe the difference MadPressure made on my driveway and sidewalks. They look brand new! The team was professional, on time, and very thorough with their work. Highly recommend!
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/img/testimonials/client-1.jpg" alt="Customer" class="author-img">
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Waluska, GA</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        As a business owner, first impressions are everything. MadPressure cleaned our storefront and sidewalks, and the results were amazing. We've had multiple customers comment on how nice everything looks!
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/img/testimonials/client-2.jpg" alt="Customer" class="author-img">
+                        <div class="author-info">
+                            <h4>Mike Anderson</h4>
+                            <p>Business Owner</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        We had years of built-up grime on our home's siding and roof. MadPressure did an incredible job cleaning everything. Our house looks like it was just painted! Fair pricing and excellent service.
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/img/testimonials/client-3.jpg" alt="Customer" class="author-img">
+                        <div class="author-info">
+                            <h4>David & Lisa Williams</h4>
+                            <p>Homeowners</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-subtitle">Have questions or ready to schedule a service? Reach out to us today.</p>
+            
+            <div class="contact-container">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="contact-title">Our Location</h3>
+                    <p class="contact-info">Waluska, Georgia<br>Serving all surrounding areas</p>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3 class="contact-title">Call Us</h3>
+                    <p class="contact-info">(555) 123-4567<br>Mon-Sat: 7:00 AM - 7:00 PM</p>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3 class="contact-title">Email Us</h3>
+                    <p class="contact-info">info@madpressure.com<br>quotes@madpressure.com</p>
+                </div>
+            </div>
+            
+            <div class="map">
+                <!-- Replace with actual Google Maps iframe when ready -->
+                <img src="assets/img/map.jpg" alt="Map of Service Area" style="width: 100%; height: 400px; object-fit: cover;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <h3 class="footer-logo">Mad<span>Pressure</span></h3>
+                    <p>Professional pressure washing services in Waluska, GA and surrounding areas. We specialize in residential and commercial cleaning solutions.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li class="footer-link"><a href="#home">Home</a></li>
+                        <li class="footer-link"><a href="#services">Services</a></li>
+                        <li class="footer-link"><a href="#quote">Get Quote</a></li>
+                        <li class="footer-link"><a href="#gallery">Gallery</a></li>
+                        <li class="footer-link"><a href="#about">About Us</a></li>
+                        <li class="footer-link"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3 class="footer-title">Contact Info</h3>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <p>Waluska, Georgia</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <p>(555) 123-4567</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <p>info@madpressure.com</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <p>Mon-Sat: 7:00 AM - 7:00 PM</p>
+                    </div>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h3 class="footer-title">Newsletter</h3>
+                    <p>Subscribe to our newsletter for special offers and updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Enter your email">
+                        <button type="submit" class="newsletter-btn"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                    <p>We respect your privacy and will never share your information.</p>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 MadPressure - All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
