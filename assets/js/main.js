@@ -106,7 +106,7 @@ if (quoteForm) {
         body += `%0D%0AMessage:%0D%0A${message}`;
         
         // Create mailto link
-        const mailtoLink = `mailto:travisgolembiewski@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
+        const mailtoLink = `mailto:kylem731@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
         
         // Open the email client
         window.location.href = mailtoLink;
